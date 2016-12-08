@@ -19,13 +19,15 @@
 }
 .a-card-action.leave{
     width: 0px;
+    transition: 0.5s;
 }
 .leave .content{
-    display: none;
+    opacity: 0;
 }
 
 .over .content{
-    display: block;
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 .content {
