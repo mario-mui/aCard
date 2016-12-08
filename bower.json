@@ -1,0 +1,16 @@
+{
+  "name": "ngIpv4",
+  "version": "0.3.4",
+  "homepage": "https://github.com/mario56/angulaIpInput",
+  "authors": [
+    "mario ma <mario.ma@trantect.com>"
+  ],
+  "description": "ip input directive",
+  "main": "src",
+  "keywords": [
+    "angular",
+    "ip",
+    "input"
+  ],
+  "license": "MIT"
+}

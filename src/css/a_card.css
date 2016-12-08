@@ -1,0 +1,48 @@
+.a-card-info {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+    position: relative;
+}
+.a-card-action {
+    position: absolute;
+    height: 150px;
+    top:0;
+    right: 0;
+    background: #333333;
+}
+
+.a-card-action.over{
+    width: 60px;
+    transition: 0.5s;
+}
+.a-card-action.leave{
+    width: 0px;
+}
+.leave .content{
+    display: none;
+}
+
+.over .content{
+    display: block;
+}
+
+.content {
+    padding: 10px;
+}
+.content-list {
+    padding: 3px 0px;
+}
+.content-list .title {
+    display: block;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.content-list .data {
+    display: block;
+    font-size: 14px;
+    padding-top: 5px;
+    border-bottom: 1px dotted #333;
+}
