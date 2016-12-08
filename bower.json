@@ -1,16 +1,15 @@
 {
-  "name": "ngIpv4",
-  "version": "0.3.4",
-  "homepage": "https://github.com/mario56/angulaIpInput",
+  "name": "ngACard",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mario56/aCard",
   "authors": [
-    "mario ma <mario.ma@trantect.com>"
+    "mario ma <mario.ma.node@gmail.com>"
   ],
-  "description": "ip input directive",
+  "description": "action card",
   "main": "src",
   "keywords": [
     "angular",
-    "ip",
-    "input"
+    "card"
   ],
   "license": "MIT"
 }

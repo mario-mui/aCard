@@ -2,7 +2,6 @@
 
 # How to install
 
-  bower install ngIpv4
 
 # How to use
 
@@ -10,9 +9,9 @@ import js and css to you app
 
 ```
 
-  angular.module('app',['ng-ip-input'])
+  angular.module('app',['a_card_module'])
   
-  <ng-ipv4 name="ip" ng-model="ipValue" ip-value="ipValue" input-css="'bootstrap'" is-focus="isfocus"></ng-ipv4>
+  <a-card></a-card>
 
 
 
